@@ -4,4 +4,4 @@ version = "0.0.1"
 schema_version = 1
 authors = ["Stephen Buchanan <webtvmaster@gmail.com>"]
 description = "Language support for wasp"
-repository = "file://Users/stephenbuchanan/repos/wasp-lang-zed"
+repository = "https://github.com/anselanza/wasp-lang-zed"
