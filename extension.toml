@@ -1,7 +1,11 @@
 id = "wasp-lang"
-name = "wasp"
+name = "Wasp Language Support"
 version = "0.0.1"
 schema_version = 1
 authors = ["Stephen Buchanan <webtvmaster@gmail.com>"]
-description = "Language support for wasp"
+description = "Syntax highlighting support for the Wasp DSL (.wasp files)"
 repository = "https://github.com/anselanza/wasp-lang-zed"
+
+[grammars.wasp]
+repository = "https://github.com/yourusername/tree-sitter-wasp" # Or "file:///absolute/path/to/tree-sitter-wasp"
+rev = "main"
