@@ -10,14 +10,19 @@
 (boolean) @constant.builtin
 (enum_value) @constant
 
-"import" @keyword
-"from" @keyword
+;; Encapsulated anonymous keyword nodes
+(js_import "import" @keyword)
+(js_import "from" @keyword)
 
 (comment) @comment
 
-"{" @punctuation.bracket
-"}" @punctuation.bracket
-"[" @punctuation.bracket
-"]" @punctuation.bracket
-":" @punctuation.delimiter
-"," @punctuation.delimiter
+;; Encapsulated structural punctuation
+(dict "{" @punctuation.bracket)
+(dict "}" @punctuation.bracket)
+(array "[" @punctuation.bracket)
+(array "]" @punctuation.bracket)
+(dict_pair ":" @punctuation.delimiter)
+
+;; Capture delimiters within collections
+(dict "," @punctuation.delimiter)
+(array "," @punctuation.delimiter)
