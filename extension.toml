@@ -7,5 +7,5 @@ description = "Syntax highlighting support for the Wasp DSL (.wasp files)"
 repository = "https://github.com/anselanza/wasp-lang-zed"
 
 [grammars.wasp]
-repository = "https://github.com/yourusername/tree-sitter-wasp" # Or "file:///absolute/path/to/tree-sitter-wasp"
+repository = "https://github.com/anselanza/tree-sitter-wasp"
 rev = "main"
