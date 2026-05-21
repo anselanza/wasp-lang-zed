@@ -1,0 +1,4 @@
+name = "Wasp"
+grammar = "wasp"
+path_suffixes = ["wasp"]
+line_comments = ["// "]

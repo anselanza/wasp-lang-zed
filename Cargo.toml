@@ -8,3 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 zed_extension_api = "0.6.0"
+
+[grammars.wasp]
+repository = "https://github.com/anselanza/tree-sitter-wasp"
+rev = "main"
